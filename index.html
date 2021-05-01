@@ -6,14 +6,26 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.sound.min.js"></script>
     <script src="p5.play.js"></script>
     
-<!-- The core Firebase JS SDK is always required and must be listed first -->
-
-<!-- TODO: Add SDKs for Firebase products that you want to use
+    <!-- The core Firebase JS SDK is always required and must be listed first --> 
+    <script src="https://www.gstatic.com/firebasejs/8.4.3/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.4.3/firebase-database.js"></script>
+    <!-- TODO: Add SDKs for Firebase products that you want to use
      https://firebase.google.com/docs/web/setup#available-libraries -->
-    
-  // Your web app's Firebase configuration
 
-  // Initialize Firebase
+    <script>
+    // Your web app's Firebase configuration
+    var firebaseConfig = {
+      apiKey: "AIzaSyB7FWPNTmKXxPjO9SL4ybHVqbnFRmmm8Ls",
+      authDomain: "hotairballoon-afd47.firebaseapp.com",
+      databaseURL: "https://hotairballoon-afd47-default-rtdb.firebaseio.com",
+      projectId: "hotairballoon-afd47",
+      storageBucket: "hotairballoon-afd47.appspot.com",
+      messagingSenderId: "703915436824",
+      appId: "1:703915436824:web:827c38ddecd78aa9df8c6d"
+    };
+    // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
+    </script>
 
     <link rel="stylesheet" type="text/css" href="style.css"/>
     <meta charset="utf-8">
